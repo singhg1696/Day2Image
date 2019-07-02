@@ -14,6 +14,9 @@
 		9B678AC622CC11AF00BCD31B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B678AC422CC11AF00BCD31B /* LaunchScreen.storyboard */; };
 		9B678AD122CC11AF00BCD31B /* Day2ImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B678AD022CC11AF00BCD31B /* Day2ImageTests.swift */; };
 		9B678ADC22CC11AF00BCD31B /* Day2ImageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B678ADB22CC11AF00BCD31B /* Day2ImageUITests.swift */; };
+		9B678AEB22CC13CF00BCD31B /* ice cream.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B678AEA22CC13CF00BCD31B /* ice cream.png */; };
+		9B678AF122CC146B00BCD31B /* elephant.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B678AF022CC146B00BCD31B /* elephant.png */; };
+		9B678AF322CC147600BCD31B /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B678AF222CC147600BCD31B /* home.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		9B678AD722CC11AF00BCD31B /* Day2ImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Day2ImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B678ADB22CC11AF00BCD31B /* Day2ImageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day2ImageUITests.swift; sourceTree = "<group>"; };
 		9B678ADD22CC11AF00BCD31B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B678AEA22CC13CF00BCD31B /* ice cream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ice cream.png"; sourceTree = "<group>"; };
+		9B678AF022CC146B00BCD31B /* elephant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = elephant.png; path = joker_circus/elephant.png; sourceTree = "<group>"; };
+		9B678AF222CC147600BCD31B /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home.png; path = joker_circus/home.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,7 @@
 		9B678ABA22CC11AC00BCD31B /* Day2Image */ = {
 			isa = PBXGroup;
 			children = (
+				9B678AE922CC126700BCD31B /* Images */,
 				9B678ABB22CC11AC00BCD31B /* AppDelegate.swift */,
 				9B678ABD22CC11AC00BCD31B /* ViewController.swift */,
 				9B678ABF22CC11AC00BCD31B /* Main.storyboard */,
@@ -123,6 +130,16 @@
 				9B678ADD22CC11AF00BCD31B /* Info.plist */,
 			);
 			path = Day2ImageUITests;
+			sourceTree = "<group>";
+		};
+		9B678AE922CC126700BCD31B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9B678AF222CC147600BCD31B /* home.png */,
+				9B678AF022CC146B00BCD31B /* elephant.png */,
+				9B678AEA22CC13CF00BCD31B /* ice cream.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +247,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B678AC622CC11AF00BCD31B /* LaunchScreen.storyboard in Resources */,
+				9B678AF122CC146B00BCD31B /* elephant.png in Resources */,
+				9B678AF322CC147600BCD31B /* home.png in Resources */,
+				9B678AEB22CC13CF00BCD31B /* ice cream.png in Resources */,
 				9B678AC322CC11AF00BCD31B /* Assets.xcassets in Resources */,
 				9B678AC122CC11AC00BCD31B /* Main.storyboard in Resources */,
 			);
