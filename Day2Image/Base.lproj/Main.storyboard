@@ -92,10 +92,10 @@
             </objects>
             <point key="canvasLocation" x="1828.985507246377" y="133.92857142857142"/>
         </scene>
-        <!--View Controller-->
+        <!--Third View Controller-->
         <scene sceneID="Kdg-tQ-yZG">
             <objects>
-                <viewController id="j5d-lS-K8G" sceneMemberID="viewController">
+                <viewController id="j5d-lS-K8G" customClass="ThirdViewController" customModule="Day2Image" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mCY-bv-47I">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -120,10 +120,10 @@
             </objects>
             <point key="canvasLocation" x="3536.2318840579715" y="125.89285714285714"/>
         </scene>
-        <!--View Controller-->
+        <!--Forth View Controller-->
         <scene sceneID="sF1-us-cEE">
             <objects>
-                <viewController id="odd-LD-b7M" customClass="ViewController" customModule="Day2Image" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="odd-LD-b7M" customClass="ForthViewController" customModule="Day2Image" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9MF-8N-TdQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
